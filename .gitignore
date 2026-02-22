@@ -1,0 +1,34 @@
+##### Node / JavaScript #####
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+##### Playwright / Testing #####
+playwright-report/
+test-results/
+artifacts/
+screenshots/
+.playwright/
+
+##### Editor / OS #####
+.DS_Store
+.vscode/
+.idea/
+.classpath
+.project
+.settings/
+
+##### Env / Misc #####
+.env
+.env.*
+.cache/
+coverage/
+dist/
+build/
+output/
+*.log
