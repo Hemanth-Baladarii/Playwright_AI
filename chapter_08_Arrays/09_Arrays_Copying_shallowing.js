@@ -25,7 +25,7 @@ original.push(99);
 console.log(original);
 
 // Deep and shallow example
-let arr = [1,2,3,4,];
+let arr = [1,2,3,4];
 let cp = arr;
 cp.push(8);
 console.log(cp);
