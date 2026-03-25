@@ -7,7 +7,7 @@ function makeRetry(max) {
     return (testName) => {
         attempts++;
         if (attempts > max) { return `${testName} exceeds max tries (${max})` };
-        return `Attmpts ${attempts}/${max} for ${testName}`;
+        return `Attempts ${attempts}/${max} for ${testName}`;
     };
 }
 

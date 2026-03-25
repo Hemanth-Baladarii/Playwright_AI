@@ -5,7 +5,8 @@
 let numbers = [1, 2, 3, 4, 6, 8];
 
 let transformedArray = numbers.map(num => num * 2);
-console.log(transformedArray);
+console.log("numbers",numbers);
+console.log("transformedArray",transformedArray);
 
 // filter
 // selects only certain elements that meet a condition. 
