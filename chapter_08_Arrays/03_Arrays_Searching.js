@@ -12,3 +12,6 @@ console.log(nums.findIndex(x => x > 2)) // Returns the index of the first elemen
 console.log(nums.findLast(x => x > 2)) // Returns the value of the last element in the array where predicate is true
 
 console.log(nums.findLastIndex(x => x > 2)) // Returns the index of the last element in the array where predicate is true
+
+let fruits = ["apple", "banan", "mango", "guava"];
+console.log("fruits", fruits.indexOf("banan"));

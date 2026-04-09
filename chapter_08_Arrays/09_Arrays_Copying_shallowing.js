@@ -1,3 +1,7 @@
+// shallow copy duplicates only top level objects/arrays. But the Nested Objects
+// still referes to Original any changes in nested will effect in parent nested.
+
+// deep copy create a individual copy and changes in nested will not effect .
 
 // shallow copy
 // Used spread operator

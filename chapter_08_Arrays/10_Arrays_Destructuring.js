@@ -1,9 +1,11 @@
-// Array Destructuring
+// Unpacking values of an array or object 
+
+// Array Destructuring with rest operator
 let [x, y, ...z] = [10, 1, 23, 8, 9];
 console.log(x, y, z) //10 1 [ 23, 8, 9 ]
 console.log(z); // [ 23, 8, 9, 8 ]
 
-// Object Destructuring
+// Object Destructuring 
 let person = { name: 'Hemanth', city: 'Isukapudi', age: 30 };
 let { name, city } = person;
 console.log(name, city); // Hemanth Isukapudi
