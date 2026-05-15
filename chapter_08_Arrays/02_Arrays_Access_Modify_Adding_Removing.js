@@ -21,7 +21,7 @@ fruits.unshift('mango');
 console.log(fruits); // [ 'mango', 'apple', 'blueberry', 'cherry', 'grapes' ]
 
 
-// slice -> - At a specific position
+// splice -> - At a specific position
 fruits.splice(2, 0, "hem"); 
 console.log(fruits); // ["kiwi", "apple", "hem", "blueberry", "cherry", "mango"]
 
